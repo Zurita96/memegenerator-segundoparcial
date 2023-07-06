@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meme Generetor</title>
+    <title>Generador de Memes</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Meme Generator</h1>
-  <ul>
-    <li><a href="#">Crear un meme</a></li>
-    <li><a href="#">Ver galería de memes</a></li>
-    <li><a href="#">Salir</a></li>
-  </ul>
+  <div class="container">
+    <h1>Generador de Memes</h1>
+  <form id="memeForm">
+    <input type="text" id="topText" placeholder="Texto superior" required>
+    <input type="text" id="bottomText" placeholder="Texto inferior" required>
+    <button type="submit">Generar Meme</button>
+  </form>
+  </div>
+  <script src="js/indes.js"></script>
 </body>
 </html>
