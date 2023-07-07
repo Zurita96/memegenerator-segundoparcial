@@ -1,0 +1,65 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+body{
+  background: linear-gradient(to right, #418f43, #ff9800);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+  color: #333;
+  font-style: italic;
+  text-decoration: underline;
+  color: #4CAF50;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  border-color: #999;
+  box-shadow: 0 0 5px #4CAF50;
+  border-color: #4CAF50; 
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  background-color: #4CAF50;
+  color: #fff; 
+
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  transform: translateX(2px); /* Mueve el botón hacia abajo 2px */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Agrega sombra */
+}
+
+#memeResult {
+  text-align: center;
+  margin-top: 20px;
+}
